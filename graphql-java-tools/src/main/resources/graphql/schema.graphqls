@@ -1,0 +1,14 @@
+# Book
+type Book {
+  # The book's id
+  id: Int!
+  # The book's title
+  title: String!
+  # The book's author
+  author: String!
+}
+
+type Query {
+  # returns book list
+  books: [Book]!
+}
