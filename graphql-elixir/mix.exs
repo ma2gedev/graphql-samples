@@ -36,6 +36,9 @@ defmodule GraphqlSample.MixProject do
       {:phoenix_pubsub, "~> 1.1"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
+      {:absinthe, "~> 1.4"},
+      {:absinthe_plug, "~> 1.4.0"},
+      {:poison, "~> 4.0"},
       {:plug_cowboy, "~> 2.0"}
     ]
   end
