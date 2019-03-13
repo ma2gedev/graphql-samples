@@ -2,7 +2,7 @@ defmodule GraphqlSampleWeb.Schema do
   use Absinthe.Schema
   import_types(GraphqlSampleWeb.Schema.Models)
 
-  query do
+  query [name: "Query"] do
     @desc "returns book list"
     field :books, non_null(list_of(:book)) do
       resolve(fn _, _ ->
