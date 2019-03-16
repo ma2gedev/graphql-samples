@@ -18,11 +18,11 @@ Examples are divided by the following directory.
 
 ### graphql-java-tools/
 
-Use Kotlin and GraphQL Java Tools to explain a Schema-First development for GraphQL.
+The sample application with Kotlin and GraphQL Java Tools to explain a Schema-First development for GraphQL.
 
 ### graphql-kotlin/
 
-Use Kotlin and graphql-kotlin to explain a Code-First development for GraphQL.
+The sample application with Kotlin and graphql-kotlin to explain a Code-First development for GraphQL.
 
 
 ## Author
