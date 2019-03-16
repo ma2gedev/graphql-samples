@@ -24,6 +24,10 @@ The sample application with Kotlin and GraphQL Java Tools to explain a Schema-Fi
 
 The sample application with Kotlin and graphql-kotlin to explain a Code-First development for GraphQL.
 
+### graphql-elixir/
+
+The sample application with Elixir and Absinthe to explain an another Code-First development for GraphQL.
+
 
 ## Author
 
