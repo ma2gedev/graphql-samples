@@ -10,7 +10,7 @@ use Mix.Config
 # Configures the endpoint
 config :graphql_sample, GraphqlSampleWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "ruxsgRCZDGGVQBaxCbwKyK7+LgGfpIhBXL3T3II+Sm73lnni1gbLxhBULzZjsf3r",
+  secret_key_base: "ruxsgRCZDGGVQBaxCbwKyK7+LgGfpIhBXL3T3II+Sm73lnni1gbLxhBULzZjsf3r", # FIXME: must change this value if you actually use
   render_errors: [view: GraphqlSampleWeb.ErrorView, accepts: ~w(json)],
   pubsub: [name: GraphqlSample.PubSub, adapter: Phoenix.PubSub.PG2]
 
